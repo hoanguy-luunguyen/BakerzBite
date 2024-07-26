@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bill</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    #customerInfo {
+      margin-bottom: 20px;
+    }
+
+    #customerInfo p {
+      margin: 5px 0;
+    }
+
+    td img {
+      width: 170px;
+    }
+    .customer-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hóa đơn</h1>
+
+    <table id="cartTable">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Size</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody id="cartItems"></tbody>
+    </table>
+    <div id="customerInfo">
+        <h2>Thông tin khách hàng</h2>
+        <table>
+          <tr>
+            <th>Tên</th>
+            <td id="customerName"></td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td id="customerEmail"></td>
+          </tr>
+          <tr>
+            <th>Địa chỉ</th>
+            <td id="customerAddress"></td>
+          </tr>
+          <tr>
+            <th>Điện thoại</th>
+            <td id="customerPhone"></td>
+          </tr>
+        </table>
+      </div>
+  </div>
+
+  <script src="JS/checkout.js"></script>
+  <script src="JS/bill.js"></script>
+</body>
+</html>

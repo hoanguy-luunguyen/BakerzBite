@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/trhome.css">
+    <title>Bakerz Bite</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img class="logo logo-img-header" src="IMG/logo.jpg" alt="Bakerz Bite"></div>
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="">PRODUCT</a>
+                    <ul class="dropdown">
+                        <li><a href="bread.html">BREAD</a></li>
+                        <li><a href="cake.html">CAKE</a></li>
+                        <li><a href="pastry.html">PASTRY</a></li>
+                        <li><a href="bestseller.html">BEST SELLER</a></li>
+                    </ul>
+                </li>
+                <li><a href="cart.html">ORDER</a></li>
+                <li><a href="project-aboutus.html">ABOUT US</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+        <div class="content">
+            <center>
+                <img src="../img/logo.png" alt="" class="img-icon">
+            </center>
+            <h1 class="content-title">
+                BREAD
+            </h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="../img/bread/bread-1-bao.jpg" alt="">
+                <h3>bread-1-bao</h3>
+                <p>Price: 13$</p>
+                Size: <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-7">
+                        Bánh mì -  “vua của các loại bánh” tại Việt Nam. Hình ảnh chiếc bánh mì gắn liền với bộ trang phục lấy ý tưởng từ chính chiếc bánh này trong cuộc thi Hoa hậu Hoàn Vũ do Hoa hậu H’hen Niê tham gia cũng đã góp phần đưa hình ảnh chiếc Bánh mì vươn ra thế giới.
+                        Bánh mì ngọt - loại bánh ngon nhất Việt Nam
+                        Nay bánh mì đã có thêm vị ngọt với nhiều cách biến tấu độc đáo khác nhau. Bánh mì ngọtkhá đa dạng, với nhiều loại nhân khác như chocolate, dâu, xoài.... Có thể nói rằng, qua nhiều năm thì bánh mì ngọt vẫn không bao giờ hết đi sức hút của nó.
+                        Hi vọng rằng qua bài viết này thì chúng mình đã giúp các bạn tìm ra được các loại bánh ngọt được yêu thích nhất tại Việt Nam. Hãy chia sẻ thông tin này đến với bạn bè, những người thân trong gia đình để họ cũng có thể biết đến và thưởng thức hương vị thơm ngon, đặc trưng của mỗi loại bánh này nhé!
+                    </p>
+                    
+                </div>
+                <button class="btn" onclick="addToCart('bread-1-bao', '../img/bread/bread-1-bao.jpg','13')">Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="box">
+                <img src="../img/bread/bread-2-phat.jpg" alt="">
+                <h3>bread-2-phat</h3>
+                <p>Price: 10$</p>
+                Size: <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-6">
+                        Bánh mì -  “vua của các loại bánh” tại Việt Nam. Hình ảnh chiếc bánh mì gắn liền với bộ trang phục lấy ý tưởng từ chính chiếc bánh này trong cuộc thi Hoa hậu Hoàn Vũ do Hoa hậu H’hen Niê tham gia cũng đã góp phần đưa hình ảnh chiếc Bánh mì vươn ra thế giới.
+                        Bánh mì ngọt - loại bánh ngon nhất Việt Nam
+                        Nay bánh mì đã có thêm vị ngọt với nhiều cách biến tấu độc đáo khác nhau. Bánh mì ngọtkhá đa dạng, với nhiều loại nhân khác như chocolate, dâu, xoài.... Có thể nói rằng, qua nhiều năm thì bánh mì ngọt vẫn không bao giờ hết đi sức hút của nó.
+                        Hi vọng rằng qua bài viết này thì chúng mình đã giúp các bạn tìm ra được các loại bánh ngọt được yêu thích nhất tại Việt Nam. Hãy chia sẻ thông tin này đến với bạn bè, những người thân trong gia đình để họ cũng có thể biết đến và thưởng thức hương vị thơm ngon, đặc trưng của mỗi loại bánh này nhé!
+                    </p>
+                    
+                </div>
+                <button class="btn" onclick="addToCart('bread-2-phat', '../img/bread/bread-2-phat.jpg','10')">Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="box">
+                <img src="../img/bread/bread-3-phat.jpg" alt="">
+                <h3>bread-3-phat</h3>
+                <p>Price: 18$</p>
+                Size: <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-5">
+                        Bánh Financier là một loại bánh kiểu Pháp, mang đậm mùi hạnh nhân và bơ, bên trong ruột bánh mềm đặc và béo ngậy.Hương thơm ngào ngạt say đắm từ bơ nâu và hạnh nhân thơm bùi hoà quyện với hạt dẻ cười nghiền mịn hay nhân caramel bơ mặn thơm lừng.Bánh thường được dùng trong các buổi trà chiều/ tiệc trà/ tiệc ngọt.
+                    </p>
+                    
+                </div>
+                <button class="btn" onclick="addToCart('bread-3-bao', '../img/bread/bread-3-phat.jpg','18')">Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="box">
+                <img src="../img/bread/bread-4-phat.jpg" alt="">
+                <h3>bread-4-phat</h3>
+                <p>Price: 20$</p>
+                Size: <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-4">
+                        Mùi thơm dậy của chuối chín những quả chuối tươi chín vàng ươm tươm mật hoà quyện cùng mùi vị của bơ béo ngậy và đường nâu thơm lừng... Thật khó mà kìm lòng cho được!!!
+
+                        ✔️Thớ bánh siêu mềm, dai dai, ngọt thơm đậm đà mật chuối, ngon vô cùng.
+                    </p>
+                  
+                </div>
+                <button class="btn" onclick="addToCart('bread-4-bao', '../img/bread/bread-4-phat.jpg','20')">Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="box">
+                <img src="../img/bread/bread-5-bao.jpg" alt="">
+                <h3>bread-5-bao</h3>
+                <p>Price: 30$</p>
+                Size: <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-3">
+                        Bánh rán Dorayaki gắn liền với một bộ phim hoạt hình mà tuổi thơ ai cũng đã từng xem qua đó chính là hoạt hình Doraemon. Nếu bạn yêu thích chú mèo máy Doraemon thì bạn sẽ nhớ ngay là chú rất yêu món bánh này, mê đến nỗi phát cuồng lên.
+                        Bánh rán Dorayaki
+                        Nguyên liệu để làm nên chiếc bánh thành phẩm cúng khá đơn giản bao gồm bột, trứng gà, sữa và kẹp nhân bên trong làm từ đậu đỏ hoặc các loại đậu khác tùy theo sở thích của người thưởng thức nó. Thành phẩm của một chiếc bánh ngon đó chính là vỏ ngoài mềm mịn kèm lớp nhân thơm ngon, ngọt ngào.
+                    </p>
+                    
+                </div>
+                <button class="btn" onclick="addToCart('bread-5-bao', '../img/bread/bread-5-bao.jpg','30')">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="box">
+                <img src="../img/bread/bread-6-phat.jpg" alt="">
+                <h3>bread-6-phat</h3>
+                <p>Price: 32$</p>
+                Size:
+                <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-1">
+                        <!-- Chuỗi ban đầu -->
+                        bánh sừng bò nhân hạnh nhân
+                        Vẫn là hình dáng đơn thuần của Croissant, nhưng với điểm đặc biệt từ hương vị béo của bơ và bùi bùi, ngọt ngọt của hạnh nhân. Nhờ sự tinh tế của các đầu bếp đã cân bằng được các hương vị ngọt béo này một cách vừa phải, Hạnh nhân đã trở thành một trong những món bánh "Best Seller" của Anh
+                    </p>
+                </div>
+                <button class="btn" onclick="addToCart('bread-6-phat', '../img/bread/bread-6-phat.jpg','32')">Thêm vào giỏ hàng</button>
+            </div>
+            
+            <div class="box">
+                <img src="../img/bread/bread-7-phat.jpg" alt="">
+                <h3>bread-7-phat</h3>
+                <p>Price: 21$</p>
+                Size:
+                <select id="size-6">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <div>
+                    <p id="noteText-2">
+                        
+                        ẩn trong lớp bánh xốp giòn bên ngoài là chocolate nguyên chất cao cấp đậm vị. Sau khi nướng, bánh có hương thơm tinh tế của bơ với điểm nhấn là nhân chocolate nóng, tạo sự kết hợp hài hoà
+                    </p>
+                </div>
+                <button class="btn" onclick="addToCart('bread-7-phat', '../img/bread/bread-7-phat.jpg','21')">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+        <script src="JS/cart.js"></script>
+        <script src="JS/text.js"></script>
+    </div>
+
+    <footer>
+        <div class="footer-logo"><img src="IMG/logo.jpg" alt=""></div>
+        <div class="footer-address">
+            <p> <strong> Address:</strong> 590 CMT8 Street District 3
+                Ho Chi Minh City</p>
+            <p> <strong>Phone:</strong> (028) 274888 </P>
+            <p> <strong>Email:</strong> bakerzbiteshop@gmail.com</p>
+        </div>
+        <div class="footer-icon">
+            <caption>FOLLOW US ON SOCIAL MEDIA</caption>
+            <div class="footer-icon-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+
+            </div>
+            <p>Copyright &copy; 2018 by Bakerz Bike Shop. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

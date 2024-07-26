@@ -1,0 +1,519 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 1200px;
+    max-width: calc(100% - 50px);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(248, 247, 245);
+}
+
+* {
+    font-size: 17px;
+    padding: 0;
+    margin: 0%;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    color: rgb(85, 85, 85);
+
+}
+
+
+.main {
+    width: 100%;
+    height: 550px;
+    ;
+}
+
+.review-customers-left {
+    width: 100%;
+    height: 150px;
+    /* border: 3px solid; */
+    border-radius: 30px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 15px 20px burlywood;
+    object-fit: cover;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.review-customers-left img {
+    width: 10%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.review-customers-left p {
+    color: brown;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.container {
+    background-color: rgb(248, 247, 245);
+    box-shadow: 3px 2px 5px rgba(196, 196, 196, 0.575);
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(104, 13, 69);
+}
+
+.main .content-asset p {
+    font-size: 20px;
+    text-indent: 3.4em;
+    line-height: 40px;
+    margin: 10px 17px;
+}
+
+.main .comments {
+    border: 0.5px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 70%;
+}
+
+.main .comments span h4 {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.m-info {
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.m-info p {
+
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 247, 245);
+}
+
+.footer-logo {
+    width: 33.33%;
+}
+
+.footer-logo img {
+    margin-left: 10px;
+    width: 80%;
+}
+
+.footer-address {
+    width: 33.33%;
+    font-size: 15px;
+}
+
+.footer-icon {
+    width: 33.33%;
+    text-align: center;
+
+}
+
+.footer-icon i {
+    font-size: 30px;
+    margin: 15px 30px;
+    cursor: pointer;
+}
+
+.footer-icon caption {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+header {
+    width: 100%;
+
+
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: rgb(246, 234, 222);
+}
+
+/* .navbar{
+height: auto;
+background-color: rgb(246, 234, 222);
+
+} */
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.logo-img-header {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 75px;
+    position: relative;
+
+}
+
+/*<========================= underline the a ====================>*/
+.menu-bar a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: all .5s;
+
+}
+
+
+
+.menu-bar a:hover::before {
+    width: 100%;
+
+}
+
+/*<========================= drow down menu ====================>*/
+.dropdown li {
+    display: block;
+}
+
+.dropdown {
+    width: 200px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: rgb(246, 234, 222);
+}
+
+li:hover .dropdown {
+    display: block;
+
+}
+
+/*<========================= main content ====================>*/
+.main-content {
+    width: 1200px;
+    height: 600px;
+    position: relative;
+
+}
+
+.hero-img-shop {
+    width: 1200px;
+    height: 600px;
+    z-index: -1;
+    position: absolute;
+}
+
+.hero-content {
+    position: absolute;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.hero-content h1 {
+    color: whitesmoke;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.hero-content p {
+    color: whitesmoke;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero h1:hover {
+    color: yellow;
+}
+
+.hero p:hover {
+    color: yellow;
+}
+
+.btn-about-us {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 150px;
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+.btn-about-us:hover {
+    color: yellow;
+
+}
+
+.carousel-inner {
+    color: red;
+}
+
+
+
+/*<========================= product content ====================>*/
+.product {
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(246, 234, 222);
+    position: relative;
+}
+
+.product-item {
+    /* border: 3px solid; */
+    border-radius: 30px;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+}
+
+.product-item {
+    box-shadow: 10px 15px 20px burlywood;
+
+}
+
+/*<========================= product bread ====================>*/
+.item-bread {
+    width: 100%;
+    height: 33.3%;
+
+    border-radius: 30px 30px 0 0;
+    display: flex;
+
+}
+
+.bread-img img {
+    width: 537px;
+    height: 312.67px;
+    object-fit: cover;
+    border-radius: 30px 0 0 0;
+}
+
+.a-bread {
+    padding: 10% 15%;
+}
+
+.bread-content h1 {
+    height: 35px;
+}
+
+.bread-content h1 a {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    cursor: pointer;
+
+
+
+}
+
+.bread-content p {
+    color: brown;
+    cursor: pointer;
+}
+
+/*<========================= product cake ====================>*/
+.item-cake {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+
+}
+
+.cake-img img {
+    width: 542px;
+    height: 312.67px;
+    object-fit: cover;
+
+}
+
+.a-cake {
+    padding: 10% 15%;
+}
+
+.cake-content h1 {
+    height: 35px;
+}
+
+.cake-content h1 a {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    cursor: pointer;
+
+}
+
+.cake-content p {
+    font-size: 15px;
+    color: brown;
+    cursor: pointer;
+}
+
+/*<========================= product pastry ====================>*/
+
+.item-pastry {
+    width: 100%;
+    height: 33.3%;
+
+    border-radius: 0 0 30px 30px;
+    display: flex;
+
+}
+
+.pastry-img img {
+    width: 537px;
+    height: 312.67px;
+    object-fit: cover;
+    border-radius: 0 0 0 30px;
+}
+
+.a-pastry {
+    padding: 10% 10%;
+}
+
+.pastry-content h1 {
+    height: 35px;
+}
+
+.pastry-content h1 a {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    cursor: pointer;
+
+}
+
+.pastry-content p {
+    font-size: 15px;
+    color: brown;
+    cursor: pointer;
+}
+
+
+
+/*<========================= product banh ====================>*/
+
+.item-banh {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+
+}
+
+.banh-img img {
+    width: 542px;
+    height: 312.67px;
+    object-fit: cover;
+
+}
+
+.a-banh {
+    padding: 10% 15%;
+}
+
+.banh-content h1 {
+    height: 35px;
+}
+
+.banh-content h1 a {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    cursor: pointer;
+
+}
+
+.banh-content p {
+    font-size: 15px;
+    color: brown;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*<========================= product banh2 ====================>*/
+
+
+.item-banh2 {
+    width: 100%;
+    height: 33.3%;
+
+    border-radius: 0 0 30px 30px;
+    display: flex;
+
+}
+
+.banh2-img img {
+    width: 537px;
+    height: 312.67px;
+    object-fit: cover;
+    border-radius: 0 0 0 30px;
+}
+
+.a-banh2 {
+    padding: 10% 10%;
+}
+
+.banh2-content h1 {
+    height: 35px;
+}
+
+.banh2-content h1 a {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    cursor: pointer;
+
+}
+
+.banh2-content p {
+    font-size: 15px;
+    color: brown;
+    cursor: pointer;
+}
+
