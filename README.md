@@ -3,7 +3,7 @@ eProject1
 T1.2104.E0 - eProject - Group 3
 Batch no.: T1.2104.E0
 
-CENTER NAME: ACE-HCMC-2-FPT
+CENTER NAME: Bakerz Bite
 
 Project title: Bakerz Bite
 
