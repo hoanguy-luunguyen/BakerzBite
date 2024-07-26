@@ -20,7 +20,7 @@ Project title: Bakerz Bite
          Nguyen Truong             Student1559713
 ============================
 
-eProject documentation at https://github.com/hoanguy-luunguyen/BakerzBite
+eProject documentation at https://github.com/hoanguy-luunguyen/BakerzBite/tree/main/document
 
 ============================
 
